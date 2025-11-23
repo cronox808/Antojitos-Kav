@@ -106,6 +106,7 @@
     background-color: var(--color-2);
 }
 
+
 .filter {
     display: flex;
     align-items: center;
@@ -157,6 +158,7 @@
     background: transparent;
 }
 
+
 /* Ocultar scrollbar en móviles y tablets */
 @media (max-width: 1024px) {
     .filter-container {
@@ -201,7 +203,17 @@
 .filter-container button:hover img{
     filter: invert(1);
 }
+.datos {
+    display: flex;
+    
+}
 
+.justo {
+    margin-left: 300px;
+    text-align: justify;
+    align-items: center;
+    margin-bottom: 50px;
+}
 
 /*  Ajuste del tamaño de las tarjetas */
 .c1, .c2, .c3, .c4 {
